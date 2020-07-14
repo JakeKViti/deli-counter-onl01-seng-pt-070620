@@ -7,8 +7,8 @@ def line(array)
  else
    array.each do |name|
    spot += 1
-   line.push(spot)
-   line.push(".")
+   line.push(spot+".")
+   #line.push(".")
    number = line.join()
    #line.push(number)
    line.push(name)
