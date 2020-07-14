@@ -8,7 +8,7 @@ def line(array)
    array.each do |name|
    spot += 1
    line.push(spot)
-   line.push(name)   
+   line.push(name)
  end
  currentlyLine = line.join(" ")
  puts "The line is currently: #{currentlyLine}"
