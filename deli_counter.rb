@@ -8,10 +8,6 @@ def line(array)
    array.each do |name|
    spot += 1
    line.push("#{spot}. #{name}")
-   #line.push(".")
-   #number = line.join()
-   #line.push(number)
-   #line.push(name)
  end
  currentlyLine = line.join(" ")
  puts "The line is currently: #{currentlyLine}"
@@ -19,7 +15,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
-
+array.push(name)
 end
 
 def now_serving(array)
