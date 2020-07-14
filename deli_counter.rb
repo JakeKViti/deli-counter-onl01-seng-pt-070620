@@ -8,7 +8,7 @@ def line(array)
    array.each do |name|
    spot += 1
    line.push(spot)
-   line.push(.)
+   line.push(".")
    line.push(name)
  end
  currentlyLine = line.join(" ")
