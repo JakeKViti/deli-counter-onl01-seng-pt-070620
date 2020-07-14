@@ -20,7 +20,6 @@ puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
 def now_serving(array)
-
+if array.length < 1
+  puts "There is nobody waiting to be served"
 end
-
-#{spot+1}. #{name}
