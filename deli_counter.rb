@@ -10,6 +10,7 @@ def line(array)
    line.push(spot)
    line.push(".")
    number = line.join()
+   line.pop
    line.push(number)
    line.push(name)
  end
