@@ -9,6 +9,8 @@ def line(array)
    spot += 1
    line.push(spot)
    line.push(".")
+   number = line.join()
+   line.push(number)
    line.push(name)
  end
  currentlyLine = line.join(" ")
