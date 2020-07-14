@@ -6,9 +6,12 @@ def line(array)
    puts "The line is currently empty."
  else
    array.each do |name|
-   puts "The line is currently: #{spot+1}. #{name}."
    spot += 1
+   line.push(spot)
+   line.push(name)   
  end
+ currentlyLine = line.join(" ")
+ puts "The line is currently: #{currentlyLine}"
  end
 end
 
@@ -19,3 +22,5 @@ end
 def now_serving(array)
 
 end
+
+#{spot+1}. #{name}
