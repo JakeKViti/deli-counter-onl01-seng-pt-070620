@@ -5,7 +5,7 @@ def line(array)
    puts "The line is currently empty."
  else
    array.each do |name|
-   puts "The line is currently: #{spot}. #{name}."
+   puts "The line is currently: #{spot+1}. #{name}."
    spot += 1
  end
  end
